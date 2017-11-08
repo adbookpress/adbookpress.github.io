@@ -65,6 +65,12 @@ h1, h2, h3, h4, h5, h6 {
     background: #80c1ce;
     color: #fff; }
 
+.br-0 {
+  border-radius: 0; }
+
+.btn-large {
+  font-size: 1.5em; }
+
 .color-dark {
   color: #3a3a3a !important; }
 
@@ -78,6 +84,10 @@ h1, h2, h3, h4, h5, h6 {
 .mx-2 {
   margin-top: 2rem;
   margin-bottom: 2rem; }
+
+.mx-3 {
+  margin-top: 3rem;
+  margin-bottom: 3rem; }
 
 .p-1 {
   padding: 1rem; }
@@ -673,5 +683,16 @@ body.mobile-nav-active {
     box-shadow: 3px 0px 3px 0px #252525; }
     #package figure .title h3 {
       font-weight: bold; }
+
+.carousel .item {
+  height: 480px; }
+
+.carousel .main-1 {
+  background: url(../img/book_events.jpg) no-repeat center;
+  background-size: cover; }
+
+.carousel .main-2 {
+  background: url(../img/book_review.jpg) no-repeat center;
+  background-size: cover; }
 
 /*# sourceMappingURL=maps/style.css.map */
