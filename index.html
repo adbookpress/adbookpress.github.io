@@ -47,25 +47,45 @@
 </head>
 
 <body>
-  <div id="preloader"></div>
 
   <!--==========================
   Hero Section
   ============================-->
-  <!-- <section id="hero">
-    <div class="hero-container">
-      <div class="wow fadeIn">
-        <div class="hero-logo">
-          <img class="" src="img/logo.png" alt="Imperial">
+  <section>
+    <div id="main-carousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#main-carousel" data-slide-to="0" class="active"></li>
+      <li data-target="#main-carousel" data-slide-to="1"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item main-1 active">
+        <div class="carousel-caption">
+          <h3>Lorem ipsum dolor.</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, saepe.</p>
         </div>
-        <h2>We create <span class="rotating">beautiful graphics, functional websites, working mobile apps</span></h2>
-        <div class="actions">
-          <a href="#about" class="btn-get-started">Get Strated</a>
-          <a href="#services" class="btn-services">Our Services</a>
+      </div>
+      <div class="item main-2">
+        <div class="carousel-caption">
+          <h3>Lorem ipsum dolor.</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, saepe.</p>
         </div>
       </div>
     </div>
-  </section> -->
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#main-carousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#main-carousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  </section>
 
   <!--==========================
   Header Section
@@ -99,41 +119,6 @@
     </div>
   </header>
   <!-- #header -->
-
-  <div id="main-carousel" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-  </ol>
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item main-1 active">
-      <div class="carousel-caption">
-        <h3>Lorem ipsum dolor.</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, saepe.</p>
-      </div>
-    </div>
-    <div class="item main-2">
-      <div class="carousel-caption">
-        <h3>Lorem ipsum dolor.</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, saepe.</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
 
   <!--==========================
   About Section
@@ -384,10 +369,13 @@
   <script src="lib/easing/easing.js"></script>
 
   <!-- Template Specisifc Custom Javascript File -->
-  <script src="js/custom.js"></script>
+  <!-- <script src="js/custom.js"></script> -->
 
   <script src="contactform/contactform.js"></script>
-
+  <script>
+  // Stick the header at top on scroll
+  $("#header").sticky({topSpacing:0, zIndex: '50'});
+  </script>
 
 </body>
 
