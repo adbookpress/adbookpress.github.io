@@ -409,20 +409,37 @@ body.mobile-nav-active {
 
 /* Get Started Section
 --------------------------------*/
-#about {
+#service {
   background: #fff;
-  padding: 80px 0; }
-  #about .about-container {
-    background: url(../img/about-img.jpg) left top no-repeat; }
-  #about .about-content {
+  padding: 80px 0;
+  background-size: 30%; }
+  #service.service-1 {
+    background-image: url(../img/rounded/blueink_review.png);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 40px 50%; }
+  #service.service-2 {
+    background-image: url(../img/rounded/kirkus_indie.png);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 40px 50%; }
+  #service.service-3 {
+    background-image: url(../img/rounded/clarion_review_for_free.png);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 40px 50%; }
+  #service .about-content {
     background: #fff; }
-  #about .about-title {
+  #service .about-title {
     color: #333;
     font-weight: 700;
     font-size: 28px; }
-  #about .about-text {
+  #service .about-text {
     line-height: 26px; }
-    #about .about-text:last-child {
+    #service .about-text:last-child {
       margin-bottom: 0; }
 
 /* Services Section

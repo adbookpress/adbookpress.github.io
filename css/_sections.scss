@@ -27,12 +27,32 @@
 
 /* Get Started Section
 --------------------------------*/
-#about {
+#service {
   background: #fff;
   padding: 80px 0;
+  background-size: 30%;
 
-  .about-container {
-    background: url(../img/about-img.jpg) left top no-repeat;
+  &.service-1 {
+    background-image: url(../img/rounded/blueink_review.png);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 40px 50%;
+  }
+
+  &.service-2 {
+    background-image: url(../img/rounded/kirkus_indie.png);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 40px 50%;
+  }
+  &.service-3 {
+    background-image: url(../img/rounded/clarion_review_for_free.png);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 40px 50%;
   }
 
   .about-content {
