@@ -103,6 +103,10 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 2rem;
   padding-bottom: 2rem; }
 
+.px-3 {
+  padding-top: 3rem;
+  padding-bottom: 3rem; }
+
 .py-1 {
   padding-left: 1rem;
   padding-right: 1rem; }
@@ -110,6 +114,10 @@ h1, h2, h3, h4, h5, h6 {
 .py-2 {
   padding-left: 2rem;
   padding-right: 2rem; }
+
+.py-3 {
+  padding-left: 3rem;
+  padding-right: 3rem; }
 
 /*--------------------------------------------------------------
 # Welcome
@@ -387,10 +395,31 @@ body.mobile-nav-active {
 /*--------------------------------------------------------------
 # Sections
 --------------------------------------------------------------*/
+.head-title {
+  background: url(../img/book_events.jpg) no-repeat center;
+  background-size: cover;
+  height: 600px;
+  position: relative;
+  color: #fff; }
+  .head-title h1 {
+    color: #80c1ce; }
+  .head-title:before {
+    content: '';
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; }
+  .head-title .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+
 /* Sections Common
 --------------------------------*/
 .section-title {
-  font-size: 32px;
   color: #111;
   text-transform: uppercase;
   text-align: center;
@@ -418,19 +447,19 @@ body.mobile-nav-active {
     background-color: #fff;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: 40px 50%; }
+    background-position: 20% 50%; }
   #service.service-2 {
     background-image: url(../img/rounded/kirkus_indie.png);
     background-color: #fff;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: 40px 50%; }
+    background-position: 20% 50%; }
   #service.service-3 {
     background-image: url(../img/rounded/clarion_review_for_free.png);
     background-color: #fff;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: 40px 50%; }
+    background-position: 20% 50%; }
   #service .about-content {
     background: #fff; }
   #service .about-title {

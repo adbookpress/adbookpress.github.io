@@ -1,11 +1,38 @@
 /*--------------------------------------------------------------
 # Sections
 --------------------------------------------------------------*/
+.head-title {
+  background: url(../img/book_events.jpg) no-repeat center;
+  background-size: cover;
+  height: 600px;
+  position: relative;
+  color: #fff;
+
+  h1 {
+    color: #80c1ce;
+  }
+
+  &:before {
+    content: '';
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
 
 /* Sections Common
 --------------------------------*/
 .section-title {
-  font-size: 32px;
   color: #111;
   text-transform: uppercase;
   text-align: center;
@@ -37,7 +64,7 @@
     background-color: #fff;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: 40px 50%;
+    background-position: 20% 50%;
   }
 
   &.service-2 {
@@ -45,14 +72,14 @@
     background-color: #fff;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: 40px 50%;
+    background-position: 20% 50%;
   }
   &.service-3 {
     background-image: url(../img/rounded/clarion_review_for_free.png);
     background-color: #fff;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: 40px 50%;
+    background-position: 20% 50%;
   }
 
   .about-content {
