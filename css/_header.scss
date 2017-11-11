@@ -42,12 +42,12 @@
     }
   }
   .is-sticky & {
-    background: rgba(0,0,0,0.85);
+    background: rgba(128, 193, 206, 0.8);
 
     .nav-menu {
       .menu-active {
         > a {
-          color: $accent-color;
+          color: #000;
         }
       }
     }

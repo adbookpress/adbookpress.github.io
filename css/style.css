@@ -220,9 +220,9 @@ h1, h2, h3, h4, h5, h6 {
       #header #logo img {
         max-height: 40px; } }
   .is-sticky #header {
-    background: rgba(0, 0, 0, 0.85); }
+    background: rgba(128, 193, 206, 0.8); }
     .is-sticky #header .nav-menu .menu-active > a {
-      color: #80c1ce; }
+      color: #000; }
 
 /*--------------------------------------------------------------
 # Navigation Menu
