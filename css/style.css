@@ -231,7 +231,8 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu, .nav-menu * {
   margin: 0;
   padding: 0;
-  list-style: none; }
+  list-style: none;
+  height: 50px; }
 
 .nav-menu ul {
   position: absolute;
@@ -398,7 +399,7 @@ body.mobile-nav-active {
 .head-title {
   background: url(../img/book_events.jpg) no-repeat center;
   background-size: cover;
-  height: 600px;
+  height: 639px;
   position: relative;
   color: #fff; }
   .head-title h1 {
@@ -442,20 +443,170 @@ body.mobile-nav-active {
   background: #fff;
   padding: 80px 0;
   background-size: 30%; }
-  #service.service-1 {
+  #service.book-review-1 {
     background-image: url(../img/rounded/blueink_review.png);
     background-color: #fff;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 20% 50%; }
-  #service.service-2 {
+  #service.book-review-2 {
     background-image: url(../img/rounded/kirkus_indie.png);
     background-color: #fff;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 20% 50%; }
-  #service.service-3 {
+  #service.book-review-3 {
     background-image: url(../img/rounded/clarion_review_for_free.png);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 20% 50%; }
+  #service.book-video-1 {
+    background-image: url(../img/rounded/with-voice-cover.png);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 20% 50%; }
+  #service.book-video-2 {
+    background-image: url(../img/rounded/without-voice-cover.png);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 20% 50%; }
+  #service.publicity-marketing-1 {
+    background-image: url(../img/rounded/newswire.png);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 20% 50%; }
+  #service.publicity-marketing-2 {
+    background-image: url(../img/rounded/press-release.png);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 20% 50%; }
+  #service.publicity-marketing-3 {
+    background-image: url(../img/rounded/new-media-publicist.png);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 20% 50%; }
+  #service.publicity-marketing-4 {
+    background-image: url(../img/rounded/newmaker-publicist.png);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 20% 50%; }
+  #service.publicity-marketing-5 {
+    background-image: url(../img/rounded/online-maker-publicist.png);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 20% 50%; }
+  #service.publicity-marketing-6 {
+    background-image: url(../img/rounded/global-publicist.png);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 20% 50%; }
+  #service.internet-marketing-1 {
+    background-image: url(../img/rounded/social-media.png);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 20% 50%; }
+  #service.internet-marketing-2 {
+    background-image: url(../img/rounded/web-design-services.png);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 20% 50%; }
+  #service.internet-marketing-3 {
+    background-image: url(../img/rounded/google-search-marketing.png);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 20% 50%; }
+  #service.internet-marketing-4 {
+    background-image: url(../img/rounded/google-display-network.png);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 20% 50%; }
+  #service.print-advertising-1 {
+    background-image: url(../img/rounded/new-york-review.png);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 20% 50%; }
+  #service.print-advertising-2 {
+    background-image: url(../img/rounded/readers-digest-magazine.png);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 20% 50%; }
+  #service.print-advertising-3 {
+    background-image: url(../img/rounded/publisher-weekly.png);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 20% 50%; }
+  #service.print-advertising-4 {
+    background-image: url(../img/rounded/new-york-times.png);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 20% 50%; }
+  #service.print-advertising-5 {
+    background-image: url(../img/rounded/ingram-catalog-marketing.png);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 20% 50%; }
+  #service.book-events-1 {
+    background-image: url(../img/rounded/book-event.png);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 20% 50%; }
+  #service.book-to-screen-1 {
+    background-image: url(../img/rounded/hollywood-ticket.png);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 20% 50%; }
+  #service.book-to-screen-2 {
+    background-image: url(../img/rounded/hollywood-first-act.png);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 20% 50%; }
+  #service.book-to-screen-3 {
+    background-image: url(../img/rounded/hollywood-directors-cut.png);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 20% 50%; }
+  #service.book-to-screen-4 {
+    background-image: url(../img/rounded/hollywood-producers-pick.png);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 20% 50%; }
+  #service.publishing-package-1 {
+    background-image: url(../img/rounded/basic.png);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 20% 50%; }
+  #service.publishing-package-2 {
+    background-image: url(../img/rounded/professional.png);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 20% 50%; }
+  #service.publishing-package-3 {
+    background-image: url(../img/rounded/premium.png);
     background-color: #fff;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -731,14 +882,14 @@ body.mobile-nav-active {
       font-weight: bold; }
 
 .carousel .item {
-  height: 480px; }
+  height: 639px; }
 
 .carousel .main-1 {
-  background: url(../img/book_events.jpg) no-repeat center;
+  background: url(../img/slide-1.jpg) no-repeat center;
   background-size: cover; }
 
 .carousel .main-2 {
-  background: url(../img/book_review.jpg) no-repeat center;
+  background: url(../img/slide-2.jpg) no-repeat center;
   background-size: cover; }
 
 /*# sourceMappingURL=maps/style.css.map */
