@@ -2,11 +2,86 @@
 # Sections
 --------------------------------------------------------------*/
 .head-title {
-  background: url(../img/book_events.jpg) no-repeat center;
-  background-size: cover;
-  height: 639px;
-  position: relative;
-  color: #fff;
+
+  &.book-events {
+    background: url(../img/book_events.jpg) no-repeat center;
+    background-size: cover;
+    height: 639px;
+    position: relative;
+    color: #fff;
+  }
+
+  &.book-to-screen {
+    background: url(../img/book_events.jpg) no-repeat center;
+    background-size: cover;
+    height: 639px;
+    position: relative;
+    color: #fff;
+  }
+
+  &.book-review {
+    background: url(../img/book_events.jpg) no-repeat center;
+    background-size: cover;
+    height: 639px;
+    position: relative;
+    color: #fff;
+  }
+
+  &.book-video {
+    background: url(../img/book_events.jpg) no-repeat center;
+    background-size: cover;
+    height: 639px;
+    position: relative;
+    color: #fff;
+  }
+
+  &.internet-based-marketing {
+    background: url(../img/book_events.jpg) no-repeat center;
+    background-size: cover;
+    height: 639px;
+    position: relative;
+    color: #fff;
+  }
+
+  &.print-advertising {
+    background: url(../img/book_events.jpg) no-repeat center;
+    background-size: cover;
+    height: 639px;
+    position: relative;
+    color: #fff;
+  }
+
+  &.publicity-marketing {
+    background: url(../img/book_events.jpg) no-repeat center;
+    background-size: cover;
+    height: 639px;
+    position: relative;
+    color: #fff;
+  }
+
+  &.publishing-package {
+    background: url(../img/book_events.jpg) no-repeat center;
+    background-size: cover;
+    height: 639px;
+    position: relative;
+    color: #fff;
+  }
+
+  &.about {
+    background: url(../img/book_events.jpg) no-repeat center;
+    background-size: cover;
+    height: 639px;
+    position: relative;
+    color: #fff;
+  }
+
+  &.contact {
+    background: url(../img/book_events.jpg) no-repeat center;
+    background-size: cover;
+    height: 639px;
+    position: relative;
+    color: #fff;
+  }
 
   h1 {
     color: #80c1ce;

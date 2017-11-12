@@ -396,27 +396,93 @@ body.mobile-nav-active {
 /*--------------------------------------------------------------
 # Sections
 --------------------------------------------------------------*/
-.head-title {
+.head-title.book-events {
   background: url(../img/book_events.jpg) no-repeat center;
   background-size: cover;
   height: 639px;
   position: relative;
   color: #fff; }
-  .head-title h1 {
-    color: #80c1ce; }
-  .head-title:before {
-    content: '';
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.8);
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%; }
-  .head-title .container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); }
+
+.head-title.book-to-screen {
+  background: url(../img/book_events.jpg) no-repeat center;
+  background-size: cover;
+  height: 639px;
+  position: relative;
+  color: #fff; }
+
+.head-title.book-review {
+  background: url(../img/book_events.jpg) no-repeat center;
+  background-size: cover;
+  height: 639px;
+  position: relative;
+  color: #fff; }
+
+.head-title.book-video {
+  background: url(../img/book_events.jpg) no-repeat center;
+  background-size: cover;
+  height: 639px;
+  position: relative;
+  color: #fff; }
+
+.head-title.internet-based-marketing {
+  background: url(../img/book_events.jpg) no-repeat center;
+  background-size: cover;
+  height: 639px;
+  position: relative;
+  color: #fff; }
+
+.head-title.print-advertising {
+  background: url(../img/book_events.jpg) no-repeat center;
+  background-size: cover;
+  height: 639px;
+  position: relative;
+  color: #fff; }
+
+.head-title.publicity-marketing {
+  background: url(../img/book_events.jpg) no-repeat center;
+  background-size: cover;
+  height: 639px;
+  position: relative;
+  color: #fff; }
+
+.head-title.publishing-package {
+  background: url(../img/book_events.jpg) no-repeat center;
+  background-size: cover;
+  height: 639px;
+  position: relative;
+  color: #fff; }
+
+.head-title.about {
+  background: url(../img/book_events.jpg) no-repeat center;
+  background-size: cover;
+  height: 639px;
+  position: relative;
+  color: #fff; }
+
+.head-title.contact {
+  background: url(../img/book_events.jpg) no-repeat center;
+  background-size: cover;
+  height: 639px;
+  position: relative;
+  color: #fff; }
+
+.head-title h1 {
+  color: #80c1ce; }
+
+.head-title:before {
+  content: '';
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%; }
+
+.head-title .container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
 
 /* Sections Common
 --------------------------------*/
