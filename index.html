@@ -46,7 +46,7 @@
   ======================================================= -->
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".nav-menu" data-offset="50">
   <div id="preloader"></div>
   <!--==========================
   Hero Section
@@ -405,17 +405,10 @@
   <script src="lib/easing/easing.js"></script>
 
   <!-- Template Specisifc Custom Javascript File -->
-  <!-- <script src="js/custom.js"></script> -->
+  <script src="js/custom.js"></script>
 
   <script src="contactform/contactform.js"></script>
-  <script>
-  // Preloader
-  $(window).on('load', function() {
-    $('#preloader').delay(100).fadeOut('slow',function(){$(this).remove();});
-  });
-  // Stick the header at top on scroll
-  $("#header").sticky({topSpacing:0, zIndex: '50'});
-  </script>
+
 
 </body>
 
