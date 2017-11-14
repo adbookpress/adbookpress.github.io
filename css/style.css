@@ -927,6 +927,12 @@ body.mobile-nav-active {
   background: #111;
   padding: 30px 0;
   color: #fff; }
+  #footer ul {
+    list-style-type: none;
+    padding: 0; }
+    #footer ul li {
+      margin-bottom: 5px;
+      font-size: 1.1em; }
   #footer .copyright {
     text-align: center; }
   #footer .credits {
